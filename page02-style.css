@@ -1,0 +1,155 @@
+body {
+    background: #92E3A9;
+}
+
+.celular {
+    position: absolute;
+    width: 405px;
+    height: 842px;
+    top: 61px;
+    left: 112px;
+    border-radius: 40px;
+    background: #F5F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tela {
+    position: relative;
+    top: 15px;
+    width: 375px;
+    height: 812px;
+    left: 127p;
+    background: white;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 40px;
+    top: 34px;
+}
+
+.primeiro {
+    position: absolute;
+    width: 282px;
+    height: 31px;
+    left: 50px;
+    top: 341px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.94px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.segundo {
+    position: absolute;
+    width: 299px;
+    height: 46px;
+    left: 37px;
+    top: 398px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128.91%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.terceiro {
+    position: absolute;
+    width: 38px;
+    height: 23px;
+    left: 171px;
+    top: 679px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 128.91%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #92E3A9;
+}
+
+.circulo01 {
+    position: absolute;
+    top: 508px;
+    width: 12px;
+    height: 12px;
+    left: 144px;
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    display: flex;
+}
+
+.circulo02 {
+    position: absolute;
+    top: 508px;
+    width: 12px;
+    height: 12px;
+    left: 173px;
+    background: #92E3A9;
+    border: 1px solid #92E3A9;
+    border-radius: 50px;
+}
+
+.circulo03 {
+    position: absolute;
+    top: 508px;
+    width: 12px;
+    height: 12px;
+    left: 202px;
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+.barra {
+    position: absolute;
+    width: 135px;
+    height: 5px;
+    left: 124px;
+    top: 795px;
+    background: #000000;
+    border-radius: 4px;
+}
+
+.next {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 308px;
+    height: 54px;
+    left: 40px;
+    top: 583px;
+    text-decoration: none;  
+    background: #92E3A9;
+    box-shadow: 0px 4px 10px #A1C3FC;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;    
+}
+
+.next:hover {
+    color: white;
+}
